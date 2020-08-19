@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
+    "build-storybook": "build-storybook -s ./public",
+    "generate": "yarn plop --plopfile generators/plopfile.js"
   },
   "husky": {
     "hooks": {
@@ -37,10 +38,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-typescript": "^7.10.4",
-    "@storybook/addon-actions": "^6.0.12",
-    "@storybook/addon-knobs": "^6.0.12",
-    "@storybook/addon-links": "^6.0.2",
-    "@storybook/addons": "^6.0.12",
+    "@storybook/addon-essentials": "^6.0.10",
     "@storybook/react": "^6.0.2",
     "@testing-library/jest-dom": "^5.11.3",
     "@testing-library/react": "^10.4.7",
@@ -62,6 +60,7 @@
     "jest": "^26.4.0",
     "jest-styled-components": "^7.0.2",
     "lint-staged": "^10.2.11",
+    "plop": "^2.7.4",
     "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   }
