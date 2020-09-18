@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0",
+    "lint": "eslint src --max-warnings=3",
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
@@ -40,7 +40,6 @@
     "@babel/preset-typescript": "^7.10.4",
     "@storybook/addon-essentials": "^6.0.10",
     "@storybook/react": "^6.0.21",
-
     "@testing-library/jest-dom": "^5.11.3",
     "@testing-library/react": "^10.4.9",
     "@types/jest": "^26.0.10",
